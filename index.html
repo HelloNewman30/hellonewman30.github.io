@@ -6,12 +6,43 @@
     <!--Favicon-->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <title>Hellooooo, Newman</title>
+    <style>
+      /* Simple tab styling */
+      nav {
+        margin-top: 16px;
+        margin-bottom: 24px;
+      }
+      .tabs {
+        display: flex;
+        gap: 24px;
+        list-style: none;
+        padding: 0;
+      }
+      .tabs li a {
+        text-decoration: none;
+        color:blue;
+        font-weight: bold;
+        padding: 8px 16px;
+        border-radius: 4px;
+        transition: background-color 0.2s;
+      }
+      .tabs li a:hover {
+        background-color: #f0f0f0;
+      }
+    </style>
   </head>
   <body>
     <img src="logo.svg" alt="Site Logo" style="height:80px;">
+    <nav>
+      <ul class="tabs">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
     <h1>Kyle Newman's Webpage updated</h1>
-    <p>About</p>
-    <p>Projects</p>
-    <p>Contact Me</p>
+    <p> About Me</p>
+    <p> Projects</p>
+    <p> Contact Me</p>
   </body>
 </html>

@@ -6,44 +6,61 @@
     <!--Favicon-->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <title>Hellooooo, Newman</title>
-     <style>
+    <style>
+    body{
+    background-image: url('website_background.jpg'); /* Replace with your image file */
+    background-size: cover;                  /* Makes the image cover the whole background */
+    background-repeat: no-repeat;            /* Prevents the image from repeating */
+    background-position: center;             /* Centers the image */
+  }
       /* Simple tab styling */
-      nav {
+      nav { /* Navigation bar styling */
         margin-top: 16px;
         margin-bottom: 24px;
       }
       .tabs {
-        display: flex;
-        gap: 24px;
-        list-style: none;
-        padding: 0;
+        display: flex; /* Arranges tabs in a row */
+        gap: 24px; /*Adds space between tabs */
+        list-style: none; /* Removes default bullet points from the list */
+        padding: 0; /* Removes default padding from the list */
       }
       .tabs li a {
-        text-decoration: none;
-        color:blue;
-        font-weight: bold;
-        padding: 8px 16px;
-        border-radius: 4px;
-        transition: background-color 0.2s;
+        text-decoration: none; /* Removes underline from the links */
+        color:orangered; /* Makes the link text blue */
+        font-weight: bold; /* Makes the link text bold */
+        padding: 8px 16px;  /* Adds space inside each tab for better appearance */
+        border-radius: 4px; /* Rounds the corners of each tab */
+        transition: background-color 0.2s; /* Smoothly changes background color when hovered */
       }
       .tabs li a:hover {
-        background-color: #f0f0f0;
+        background-color: #f0f0f0; /*Changes background color when you hover over a tab */
+        outline: 2px solid orangered; /* Adds an outline around the tab */
+        outline-offset: 2px; /* Moves the outline slightly away from the tab */
+        border-radius: 4px; /* Ensures corners are rounded for the outline */
       }
     </style>
   </head>
   <body>
+    <!--Site logo-->
     <img src="logo.svg" alt="Site Logo" style="height:80px;">
+    <!--Navigation bar with tabs-->
     <nav>
       <ul class="tabs">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li> 
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul> 
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
     </nav>
-    <h1>Kyle Newman's Webpage updated</h1>
-    <p>This is my GitHub Pages site.</p>
-    <p>Welcome to my personal webpage!</p>
-    <p>Feel free to explore and learn more about me.</p>
+    <h1 style="color: orangered; font-family:verdana;">Kyle Newman's Webpage updated</h1>
+    <p style="color: orangered;">About Me</p>
+    <p style="color: orangered;">Projects</p>
+    <p style="color: orangered;">Contact Me</p>
+    <p style="color: orangered;">This is a simple webpage with a navigation bar and some content. The background image is set to cover the entire page, and the tabs have hover effects.</p>
+    <p style="color: orangered;">Feel free to explore the tabs above to learn more about me, my projects, and how to contact me.</p>
+    <p style="color: orangered;">Thank you for visiting my webpage!</p>     
+    <p style="color: orangered;">Note: The background image and logo are placeholders. You can replace them with your own images.</p>
+    <p style="color: orangered;">For any inquiries or feedback, please reach out through the contact tab.</p>
+    <p style="color: orangered;">Have a great day!</p>
+    <p style="color: orangered;">© 2023 Kyle Newman. All rights reserved.</p>
   </body>
 </html>
